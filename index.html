@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reddit Stories — Vertical Video Poster</title>
+  <meta name="description" content="Reddit Stories is a desktop tool that assembles vertical videos from narrated stories and licensed gameplay, then posts to TikTok using the Content Posting API.">
+  <style>
+    :root { --bg:#0c0d0f; --fg:#e8eaed; --muted:#b0b6bf; --card:#14161a; --link:#77bdfb; }
+    html,body { margin:0; padding:0; background:var(--bg); color:var(--fg); font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+    header,footer { max-width:960px; margin:0 auto; padding:20px; }
+    nav a { color:var(--link); margin-right:16px; text-decoration:none; }
+    .container { max-width:960px; margin:0 auto; padding:20px; }
+    .card { background:var(--card); border-radius:12px; padding:20px; margin:16px 0; }
+    h1,h2,h3 { line-height:1.2; }
+    ul { line-height:1.6; }
+    code { background:#22262b; padding:2px 6px; border-radius:6px; }
+    a { color:var(--link); }
+    .pill { display:inline-block; background:#1e2329; color:var(--muted); padding:6px 10px; border-radius:999px; font-size:12px; margin-right:8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;">
+      <div>
+        <h1 style="margin:0;">Reddit Stories</h1>
+        <div class="pill">Desktop Tool</div>
+        <div class="pill">Content Posting API</div>
+        <div class="pill">Creator Utilities</div>
+      </div>
+      <nav>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./terms.html">Terms</a>
+        <a href="mailto:apaarbh1999@gmail.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>What this tool does</h2>
+      <p><strong>Reddit Stories</strong> helps a creator (that’s you) turn narrated stories into short, vertical videos:</p>
+      <ul>
+        <li>Transcribes audio and burns readable captions at the top.</li>
+        <li>Stacks licensed gameplay on the bottom.</li>
+        <li>Outputs a 1080×1920 MP4 ready for TikTok.</li>
+        <li>Uploads as a <em>draft</em> or, after audit approval, can <em>direct post</em> to your account via TikTok’s Content Posting API.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>How it works</h2>
+      <ol>
+        <li>You assemble source media you own or are licensed to use.</li>
+        <li>The desktop app transcribes audio and composes the video locally on your machine.</li>
+        <li>You sign in with TikTok and grant posting permissions (OAuth).</li>
+        <li>The app uploads the final MP4 to your TikTok account via the official API.</li>
+      </ol>
+      <p><small>Note: unaudited apps may be limited to private visibility and/or draft uploads until audit approval.</small></p>
+    </section>
+
+    <section class="card">
+      <h2>Data & privacy, at a glance</h2>
+      <ul>
+        <li>OAuth tokens are stored securely by you (locally or in your own vault) and used only to upload videos you initiate.</li>
+        <li>No sale of personal data. No ad tracking. Minimal analytics (basic logs) for reliability.</li>
+        <li>You can revoke access any time in your TikTok account settings.</li>
+      </ul>
+      <p>Read the full <a href="./privacy.html">Privacy Policy</a> and <a href="./terms.html">Terms of Service</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Questions? Reach out at <a href="mailto:apaarbh1999@gmail.com">apaarbh1999@gmail.com</a>.</p>
+      <p><small>Last updated August 13, 2025.</small></p>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Apaar Bhatnagar. <a href="./privacy.html">Privacy</a> · <a href="./terms.html">Terms</a></small>
+  </footer>
+</body>
+</html>
